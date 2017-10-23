@@ -44,7 +44,6 @@ def solution(a):
             buff[n] += 1
         else:
             buff[n] = 1
-    print buff
     for s, d in buff.iteritems():
         if d % 2 == 1:
             return s
